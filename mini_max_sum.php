@@ -13,7 +13,7 @@ function miniMaxSum($arr) {
       if ( $j === $i ) 
         continue;
 
-      $answers[] += $arr[$j];
+      $answers[] = $arr[$j];
      
     }
 
