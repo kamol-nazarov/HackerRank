@@ -15,8 +15,8 @@ function miniMaxSum($arr) {
       $smallest[0] = $i;
       $smallest[1] = $arr[$i];
 
-      // print_r( "NEW SMALLEST : {$smallest[0]} {$smallest[1]} ");
-      // echo "\n";
+      print_r( "NEW SMALLEST : {$smallest[0]} {$smallest[1]} ");
+      echo "\n";
 
     }
     
@@ -25,8 +25,8 @@ function miniMaxSum($arr) {
       $biggest[0] = $i;
       $biggest[1] = $arr[$i];
 
-      // print_r( "NEW BIGGEST : {$biggest[0]} {$biggest[1]}");
-      // echo "\n";
+      print_r( "NEW BIGGEST : {$biggest[0]} {$biggest[1]}");
+      echo "\n";
 
     }
 
@@ -37,8 +37,8 @@ function miniMaxSum($arr) {
 
     if ( $i === $biggest[0] ) {
 
-      // print_r( "FOUND BIGGEST : {$arr[$i]} " );
-      // echo "\n";
+      print_r( "FOUND BIGGEST : {$arr[$i]} " );
+      echo "\n";
 
       continue;
 
@@ -52,8 +52,8 @@ function miniMaxSum($arr) {
 
     if ( $i === $smallest[0] ) {  
 
-      // print_r( "FOUND SMALLEST : {$arr[$i]} " );
-      // echo "\n";
+      print_r( "FOUND SMALLEST : {$arr[$i]} " );
+      echo "\n";
 
       continue;    
 
