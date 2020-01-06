@@ -4,7 +4,7 @@ function miniMaxSum($arr) {
 
   $size = sizeof( $arr );
 
-  for ( $i=0; $i<$$size; $i++ ) {
+  for ( $i=0; $i<$size; $i++ ) {
 
     $answers = array();
 
@@ -21,7 +21,7 @@ function miniMaxSum($arr) {
 
     for ( $k=0; $k<$size_answers; $k++ ) {
 
-      $final += $answers[$k]
+      $final += $answers[$k];
 
     }
 
