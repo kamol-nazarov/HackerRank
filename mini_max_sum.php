@@ -25,6 +25,7 @@ function miniMaxSum($arr) {
 
     }
 
+    echo "\n";
     print_r( $final );
     echo "\n";
     
