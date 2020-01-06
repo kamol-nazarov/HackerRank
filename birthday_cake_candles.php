@@ -6,20 +6,36 @@ function birthdayCakeCandles($ar) {
   $size = sizeof( $ar );
 
   $tallest = 0;
-  $count = 0;
+  $count = 1;
 
   for ( $i=0; $i < $size; $i++ ) {
 
     if ( $tallest < $ar[$i] ) {
       
       $tallest = $ar[$i];
-      $count = $i;
+      $count = 1;
+
+      print_r( "NEW TALLEST : {$i} - {$ar[$i]}");
+      echo "\n";
+      print_r( "NEW COUNT : {$count}");
+      echo "\n";
+
+      continue;
 
     }
 
-    if ( $tallest === $ar[$i] ) continue;
+    if ( $tallest === $ar[$i] ) {
 
-    $count++;
+      $count++;
+
+      print_r( "TALLEST EQUAL : {$i} - {$ar[$i]}" );
+      echo "\n";
+      print_r( "COUNT : {$count}" );
+      echo "\n";
+      
+      continue;
+
+    }
 
   }
 
