@@ -10,7 +10,8 @@ function miniMaxSum($arr) {
 
     for ( $j=0; $j<$size; $j++ ) {
 
-      if ( $j === $i ) continue;
+      if ( $j === $i ) 
+        continue;
 
       $answers[] += $arr[$j];
      
