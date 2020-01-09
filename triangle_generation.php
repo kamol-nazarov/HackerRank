@@ -1,37 +1,36 @@
 <?php
 
-// function staircase($n) {
+function staircase($n) {
 
-// $i = 0;
-// $h = 0;
+$i = 0;
+$h = 0;
 
-// while ( $i < $n ) {
+while ( $i < $n ) {
   
-//   for ( $a = 0; $a < $n - ( $i + 1 ); $a++ ) {
+  for ( $a = 0; $a < $n - ( $i + 1 ); $a++ ) {
 
-//     echo " ";
-//     $h = $a;
+    echo " ";
+    $h = $a;
 
-//   }
+  }
 
-//   for ( $a = $h + 1; $a < $n; $a++ )
-//     echo "#";
+  for ( $a = $h + 1; $a < $n; $a++ )
+    echo "#";
 
-//   if ( $i === $n-1)
-//     echo "#";
+  if ( $i === $n-1)
+    echo "#";
 
-//   echo "\n";
+  echo "\n";
 
-//   $i++;
+  $i++;
 
-// }
+}
 
-// return;
+return;
 
-// };
+};
 
-// print_r( staircase( 20 ) );
+print_r( staircase( 20 ) );
 
-echo !! true;
 
 ?>
